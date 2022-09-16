@@ -6,5 +6,6 @@ ln -s /root/.rustup $HOME/.rustup
 
 # go to the repo root
 cd $GITHUB_WORKSPACE
+cd web-server
 bash -c "$*"
 chmod 0777 ./target
